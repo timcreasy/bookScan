@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>bookScan</title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above -->
+    <link href="css/ionic.app.css" rel="stylesheet">
+  </head>
+
+  <body ng-app="bookScan">
+
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+    </ion-nav-bar>
+
+    <ion-nav-view>
+    </ion-nav-view>
+
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/ngCordova/dist/ng-cordova.js"></script>
+    <script src="cordova.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="dependencies/sha256.js"></script>
+    <script src="js/app.js"></script>
+    <script src="services/amazonService.js"></script>
+    <script src="services/foundBookService.js"></script>
+    <script src="config/applicationStates.js"></script>
+    <script src="controllers/HomeCtrl.js"></script>
+    <script src="controllers/foundBookCtrl.js"></script>
+  </body>
+</html>

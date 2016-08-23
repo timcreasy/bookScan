@@ -1,0 +1,22 @@
+<ion-view view-title="bookScan">
+    <ion-content class="center" id="homeContent">
+
+        <img src="./img/barcode.png" id="scanImage">
+
+        <button id="scanButton" class="button button-dark" ng-click="scan()">
+          Scan
+        </button>
+
+        <div class="list list-inset">
+          <label class="item item-input">
+            <span class="input-label">Search ISBN:</span>
+            <input id="bookInput" ng-model="bookSearch.bookInfo" type="text" placeholder="Eg. 9780451524935">
+          </label>
+        </div>
+
+        <button id="searchBookButton" class="button button-dark" ng-click='searchBook()'>
+          Search Book
+        </button>
+
+    </ion-content>
+</ion-view>

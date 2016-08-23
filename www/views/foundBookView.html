@@ -1,0 +1,36 @@
+<ion-view view-title="Result">
+  <ion-content>
+
+    <div class="list">
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Book Title:</span>
+        <input class="bookOutput" type="text" disabled value="{{bookTitle}}">
+      </label>
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Book Author:</span>
+        <input class="bookOutput" type="text" disabled value="{{bookAuthor}}">
+      </label>
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Sales Rank:</span>
+        <input class="bookOutput" type="text" disabled value="{{salesRank}}">
+      </label>
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">New Price:</span>
+        <input class="bookOutput" type="text" disabled value="{{newPrice}}">
+      </label>
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Lowest Used Price:</span>
+        <input class="bookOutput" type="text" disabled value="{{lowestUsedPrice}}">
+      </label>
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Number of Used:</span>
+        <input class="bookOutput" type="text" disabled value="{{amountUsed}}">
+      </label>
+    </div>
+
+    <div id="bookImage">
+      <img src="{{bookPicture}}">
+    </div>
+
+  </ion-content>
+</ion-view>
